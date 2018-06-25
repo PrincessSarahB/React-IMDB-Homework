@@ -8,7 +8,7 @@ class  Button extends React.Component {
 
     return(
       <div className='button'>
-      <button>Showtimes</button>
+      <button> Get Showtimes >> </button>
       </div>
     )
   };

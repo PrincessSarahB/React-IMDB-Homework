@@ -5,22 +5,31 @@ body {
 }
 
 .film-list{
-  border: 1px black solid;
   margin: 5px 500px 5px 5px;
   padding: 10px;
-  background-color: lemonchiffon;
+  background-color: lightgrey;
 }
 
 .film{
   margin: 10px;
   padding: 10px;
-  background-color: lightblue;
+  background-color: lightgrey;
+  color: steelblue;
+  font-size: 16px;
   text-align: justify;
-  list-style-image:  url(https://mdn.mozillademos.org/files/11981/starsolid.gif);
+  list-style-image:  url(https://i.imgur.com/6sFYog2.png);
+  justify-content: space-between;
 }
 
 button{
-  background-color: dodgerblue;
+  background-color: steelblue;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
+  padding: 14px 300px;
+}
+
+h1{
+  margin-left: 50px;
+  text-align: left;
+  color: black;
 }
