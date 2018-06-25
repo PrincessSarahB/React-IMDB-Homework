@@ -1,5 +1,26 @@
 body {
-  margin: 0;
+  margin: 5;
   padding: 0;
   font-family: sans-serif;
+}
+
+.film-list{
+  border: 1px black solid;
+  margin: 5px 500px 5px 5px;
+  padding: 10px;
+  background-color: lemonchiffon;
+}
+
+.film{
+  margin: 10px;
+  padding: 10px;
+  background-color: lightblue;
+  text-align: justify;
+  list-style-image:  url(https://mdn.mozillademos.org/files/11981/starsolid.gif);
+}
+
+button{
+  background-color: dodgerblue;
+  color: white;
+  font-size: 16px;
 }
