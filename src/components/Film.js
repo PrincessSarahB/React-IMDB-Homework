@@ -7,7 +7,8 @@ class Film extends React.Component{
     return (
       <div className="film">
 
-        <li className="film-title">{this.props.title} {this.props.showtimes}</li>
+        <li className="film-title">{this.props.title} </li>
+        <li className="showtimes">{this.props.children}</li>
 
       </div>
     )

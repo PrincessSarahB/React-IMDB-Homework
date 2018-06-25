@@ -6,13 +6,13 @@ class FilmList extends React.Component {
 
   render(){
     const filmNodes = this.props.data.map(film => {
-      return(<Film title={film.title} key={film.id} showtimes={film.showtimes}> </Film>
+      return(<Film title={film.title} key={film.id}> {film.showtimes}</Film>
         )
     })
     return(
       <div className='film-list'>
       {filmNodes}
-        <a href="#">See More Opening This Week</a>
+        <a href="#">See More Opening This Week >> </a>
       </div>
     )
   };
